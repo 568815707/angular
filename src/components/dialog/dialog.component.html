@@ -1,0 +1,12 @@
+<div class="dialogWrap">
+  <h2 mat-dialog-title>{{data.title}}</h2>
+  <mat-dialog-content class="mat-typography">
+    <div>Name: {{ data.element.name}}</div>
+    <div>Weight: {{ data.element.weight}}</div>
+  </mat-dialog-content>
+  <mat-dialog-actions fxLayoutAlign="end">
+    <button mat-raised-button mat-dialog-close>{{data.cancel}}</button>
+    <button mat-raised-button color="primary" mat-dialog-close>{{data.ok}}</button>
+  </mat-dialog-actions>
+
+</div>
